@@ -1,6 +1,10 @@
 # coding: utf-8
 # -*- coding: utf-8 -*-
 
-s = u"パトカー"
-t = u"タクシー"
-print (s[0] + t[0] + s[1] + t[1] + s[2] + t[2] + s[3] + t[3])
+s1 = u"パトカー"
+s2 = u"タクシー"
+s3 = u''
+for n ,w in zip(s1,s2): 
+   s3 = s3 + n + w
+
+print (s3)
