@@ -4,7 +4,5 @@
 s1 = u"パトカー"
 s2 = u"タクシー"
 s3 = u''
-for n ,w in zip(s1,s2): 
-   s3 = s3 + n + w
 
-print (s3)
+print(''.join([char1 + char2 for char1, char2 in zip(s1, s2)]))
